@@ -1,4 +1,6 @@
-﻿Public Class NewPathfinderSheet
+﻿Option Strict On
+
+Public Class NewPathfinderSheet
 
     Private Sub FileToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FileToolStripMenuItem.Click
 
@@ -40,6 +42,14 @@
     End Sub
 
     Private Sub ddlExpSpeed_SelectedIndexChanged(ByVal sender As Object, ByVal e As System.EventArgs) Handles ddlExpSpeed.SelectedIndexChanged
+        Dim level As String = txtCharacterLevel.Text
+        Dim speed As String = CStr(ddlExpSpeed.SelectedItem)
 
+        txtNextLevel.Text = XML.setToNextLevel(level, speed).ToString
+        txtExperience.Text = XML.setCurrentExp(level, speed).ToString
+    End Sub
+
+    Private Sub CurrentDirectoryToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CurrentDirectoryToolStripMenuItem.Click
+        MessageBox.Show(CurDir())
     End Sub
 End Class

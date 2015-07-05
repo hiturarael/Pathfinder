@@ -11,6 +11,14 @@ C:\Users\Alicia\Documents\Visual Studio 2010\Projects\PathfinderSheet\Pathfinder
 C:\Users\Alicia\Documents\Visual Studio 2010\Projects\PathfinderSheet\PathfinderSheet\obj\x86\Debug\WindowsApplication1.DiceRoller.resources
 C:\Users\Alicia\Documents\Visual Studio 2010\Projects\PathfinderSheet\PathfinderSheet\obj\x86\Debug\WindowsApplication1.Main.resources
 C:\Users\Alicia\Documents\Visual Studio 2010\Projects\PathfinderSheet\PathfinderSheet\obj\x86\Debug\PathfinderSheet.vbproj.ResolveComReference.cache
+C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\bin\Debug\PathfinderSheet.exe
+C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\PathfinderSheet.vbproj.ResolveComReference.cache
+C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\WindowsApplication1.AddRace.resources
+C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\WindowsApplication1.Main.resources
+C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\WindowsApplication1.NewPathfinderSheet.resources
+C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\WindowsApplication1.DiceRoller.resources
+C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\PathfinderSheet.vbproj.GenerateResource.Cache
 C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\PathfinderSheet.exe
 C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\PathfinderSheet.xml
 C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\PathfinderSheet.pdb

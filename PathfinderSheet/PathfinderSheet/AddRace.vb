@@ -1,6 +1,7 @@
-﻿Public Class AddRace
+﻿Option Strict On
 
-    Private Sub txtRace_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtRace.SelectedIndexChanged
-
+Public Class AddRace
+    Private Sub AddRace_Load(sender As Object, e As EventArgs) Handles Me.Load
+        setRaces()
     End Sub
 End Class

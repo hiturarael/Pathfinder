@@ -22,7 +22,7 @@ Partial Class AddRace
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txtRace = New System.Windows.Forms.ComboBox()
+        Me.ddlRace = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.txtSubrace = New System.Windows.Forms.ComboBox()
@@ -30,13 +30,13 @@ Partial Class AddRace
         Me.btnSubmit = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'txtRace
+        'ddlRace
         '
-        Me.txtRace.FormattingEnabled = True
-        Me.txtRace.Location = New System.Drawing.Point(51, 28)
-        Me.txtRace.Name = "txtRace"
-        Me.txtRace.Size = New System.Drawing.Size(121, 21)
-        Me.txtRace.TabIndex = 0
+        Me.ddlRace.FormattingEnabled = True
+        Me.ddlRace.Location = New System.Drawing.Point(51, 28)
+        Me.ddlRace.Name = "ddlRace"
+        Me.ddlRace.Size = New System.Drawing.Size(121, 21)
+        Me.ddlRace.TabIndex = 0
         '
         'Label1
         '
@@ -92,14 +92,14 @@ Partial Class AddRace
         Me.Controls.Add(Me.txtSubrace)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.txtRace)
+        Me.Controls.Add(Me.ddlRace)
         Me.Name = "AddRace"
         Me.Text = "Select Racial Traits"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents txtRace As System.Windows.Forms.ComboBox
+    Friend WithEvents ddlRace As System.Windows.Forms.ComboBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents txtSubrace As System.Windows.Forms.ComboBox

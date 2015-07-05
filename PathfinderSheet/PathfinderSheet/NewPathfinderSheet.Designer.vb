@@ -138,6 +138,8 @@ Partial Class NewPathfinderSheet
         Me.btnAddMagic = New System.Windows.Forms.Button()
         Me.btnAddCharInfo = New System.Windows.Forms.Button()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
+        Me.HelpToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CurrentDirectoryToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.gbCharacterInfo.SuspendLayout()
         Me.gbBaseScores.SuspendLayout()
@@ -146,7 +148,7 @@ Partial Class NewPathfinderSheet
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.AboutToolStripMenuItem, Me.HelpToolStripMenuItem, Me.DiceRollerToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.AboutToolStripMenuItem, Me.HelpToolStripMenuItem, Me.DiceRollerToolStripMenuItem, Me.HelpToolStripMenuItem1})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(606, 24)
@@ -266,7 +268,7 @@ Partial Class NewPathfinderSheet
         Me.txtCharacterLevel.Size = New System.Drawing.Size(99, 20)
         Me.txtCharacterLevel.TabIndex = 14
         Me.ToolTip1.SetToolTip(Me.txtCharacterLevel, "This is the level you start at according to your GM." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Once set on sheet creation " & _
-                "you will not be able to change it.")
+        "you will not be able to change it.")
         '
         'btnAddRace
         '
@@ -1259,6 +1261,19 @@ Partial Class NewPathfinderSheet
         Me.btnAddCharInfo.Text = "Character Information"
         Me.btnAddCharInfo.UseVisualStyleBackColor = True
         '
+        'HelpToolStripMenuItem1
+        '
+        Me.HelpToolStripMenuItem1.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CurrentDirectoryToolStripMenuItem})
+        Me.HelpToolStripMenuItem1.Name = "HelpToolStripMenuItem1"
+        Me.HelpToolStripMenuItem1.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem1.Text = "&Help"
+        '
+        'CurrentDirectoryToolStripMenuItem
+        '
+        Me.CurrentDirectoryToolStripMenuItem.Name = "CurrentDirectoryToolStripMenuItem"
+        Me.CurrentDirectoryToolStripMenuItem.Size = New System.Drawing.Size(165, 22)
+        Me.CurrentDirectoryToolStripMenuItem.Text = "Current Directory"
+        '
         'NewPathfinderSheet
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1403,5 +1418,7 @@ Partial Class NewPathfinderSheet
     Friend WithEvents DiceToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents PointBuyToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents ToolTip1 As System.Windows.Forms.ToolTip
+    Friend WithEvents HelpToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents CurrentDirectoryToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class
