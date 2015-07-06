@@ -22,3 +22,5 @@ C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\
 C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\PathfinderSheet.exe
 C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\PathfinderSheet.xml
 C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\obj\x86\Debug\PathfinderSheet.pdb
+C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\bin\Debug\PathfinderSheet.pdb
+C:\Users\Alicia\Documents\GitHub\Pathfinder\PathfinderSheet\PathfinderSheet\bin\Debug\PathfinderSheet.xml

@@ -32,13 +32,12 @@ Module XML
         Dim row As Integer = 2
         worksheet = CType(workbook.Worksheets("Levels"), Excel.Worksheet)
 
-        Do Until exp <> ""
-            If level = CStr(row - 1) Then
-                exp = worksheet.Cells(row, column).value
-            End If
+        Do Until exp <> "" Or CStr(row) = ""
 
-            If CStr(worksheet.Cells(row, column).value) = "" Then
-                Exit Do
+            If row = CInt(level) + 2 And level <> "20" Then
+                exp = worksheet.Cells(row, column).value
+            ElseIf level = "20" Then
+                exp = "0"
             End If
 
             row += 1
@@ -52,17 +51,16 @@ Module XML
         Dim exp As String = ""
         Dim column As Integer = CInt(getColumnOfHeader(expspeed, "Levels"))
         Dim row As Integer = 2
+        worksheet = CType(workbook.Worksheets("Levels"), Excel.Worksheet)
 
-        Do Until row > level
-            If level = CStr(row) Then
-                worksheet = CType(workbook.Worksheets("Levels"), Excel.Worksheet)
-                If level <> "1" Then
-                    exp = worksheet.Cells(row, column).value
-                ElseIf level = "1" Then
-                    exp = "0"
-                End If
+        Do Until exp <> "" Or CStr(row) = ""
 
+            If row = CInt(level) + 1 And level <> "20" Then
+                exp = worksheet.Cells(row, column).value
+            ElseIf level = "20" Then
+                exp = 0
             End If
+
             row += 1
         Loop
 
