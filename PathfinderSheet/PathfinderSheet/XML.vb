@@ -2,8 +2,8 @@
 Imports Excel = Microsoft.Office.Interop.Excel
 
 Module XML
-    Private APP As New Excel.Application
-    Private workbook As Excel.Workbook = APP.Workbooks.Open(CurDir() & "\data\Pathfinder Matrix.xlsx")
+    Public APP As New Excel.Application
+    Public workbook As Excel.Workbook = APP.Workbooks.Open(CurDir() & "\data\Pathfinder Matrix.xlsx")
 
     Function setRaceList()
         Dim worksheet As New Excel.Worksheet
@@ -17,7 +17,7 @@ Module XML
         worksheet = CType(workbook.Worksheets("Race"), Excel.Worksheet)
         For x = 2 To worksheet.UsedRange.Rows.Count
             If worksheet.Cells(x, 2).value = 0 Then
-                Dim race As String = worksheet.Cells(x, 2).value
+                Dim race As String = worksheet.Cells(x, 3).value
                 races.Add(race)
             End If
         Next
@@ -35,7 +35,7 @@ Module XML
         Do Until exp <> "" Or CStr(row) = ""
 
             If row = CInt(level) + 2 And level <> "20" Then
-                exp = worksheet.Cells(row, column).value
+                exp = "0"
             ElseIf level = "20" Then
                 exp = "0"
             End If
@@ -58,7 +58,7 @@ Module XML
             If row = CInt(level) + 1 And level <> "20" Then
                 exp = worksheet.Cells(row, column).value
             ElseIf level = "20" Then
-                exp = 0
+                exp = worksheet.Cells(21, column).value
             End If
 
             row += 1

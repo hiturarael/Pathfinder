@@ -52,4 +52,13 @@ Public Class NewPathfinderSheet
     Private Sub CurrentDirectoryToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CurrentDirectoryToolStripMenuItem.Click
         MessageBox.Show(CurDir())
     End Sub
+
+    Private Sub NewPathfinderSheet_FormClosed(sender As Object, e As FormClosedEventArgs) Handles Me.FormClosed
+
+    End Sub
+
+    Private Sub NewPathfinderSheet_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        XML.workbook.Close()
+        XML.APP.Quit()
+    End Sub
 End Class
