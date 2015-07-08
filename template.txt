@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Race>
+		<RaceID>1<RaceID>
+			<SubraceID>0<SubraceID>
+			<RaceName>Dwarf</RaceName>
+			<SubraceID>1<SubraceID>
+			<RaceName>Deep Dwarf</RaceName>
+			<SubraceID>2<SubraceID>
+			<RaceName>Elder Dwarf</RaceName>
+			<SubraceID>3<SubraceID>
+			<RaceName>Exiled Dwarf</RaceName>
+			<SubraceID>4<SubraceID>
+			<RaceName>Mountain Dwarf</RaceName>
+	</Race>
+	
+	<Racial Traits>
+		<RaceID>1</RaceID>
+			<TraitID>1</TraitID>
+			<SubraceID>0</SubraceID>
+			<Trait Name>Ability Scores</Trait Name>
+			<Description>+2 Con; +2 Wis; -2 Cha</Description>
+			<Replaces>-</Replaces>
+	</Racial Traits>
+</data-set>
